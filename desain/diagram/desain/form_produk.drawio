@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="page1" name="Form Data Produk">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Main Border -->
+        <mxCell id="main_border" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="800" height="600" as="geometry" />
+        </mxCell>
+        <!-- Sidebar Line -->
+        <mxCell id="sidebar_line" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=20;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="130" y="10" width="10" height="600" as="geometry" />
+        </mxCell>
+        <!-- Top Bar Line -->
+        <mxCell id="topbar_line" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=20;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="800" height="10" as="geometry" />
+        </mxCell>
+        <!-- Content Area -->
+        <mxCell id="content_title" value="Form Data Produk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="breadcrumb_box" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="85" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="form_container" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="640" height="440" as="geometry" />
+        </mxCell>
+        <!-- Form Fields -->
+        <mxCell id="lbl_cat" value="Kategori" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_cat" value="-- Pilih Kategori --" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_name" value="Nama Produk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_name" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_price" value="Harga" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_price" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_img" value="Foto" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_img" value="Choose File" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_save" value="Simpan" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="170" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_back" value="Kembali" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
