@@ -1,0 +1,139 @@
+Activity: Registrasi
+Pengguna: Membuka halaman registrasi, Mengisi form pendaftaran (nama, email, password), Klik tombol daftar
+Sistem: Menampilkan form registrasi, Validasi data input, Menyimpan data pengguna ke database, Menampilkan pesan sukses registrasi
+
+Activity: Login
+Pengguna: Membuka halaman login, Memasukkan email dan password, Klik tombol login
+Sistem: Menampilkan halaman login, Memverifikasi kredensial, Mengarahkan ke dashboard, Menampilkan pesan selamat datang
+
+Activity: Lihat Halaman Beranda
+Pengguna: Mengakses website boking-rias
+Sistem: Memuat data layanan populer, Menampilkan halaman beranda dengan daftar MUA pilihan
+
+Activity: Cari Penata Rias
+Pengguna: Memasukkan kata kunci pencarian (lokasi/nama MUA), Klik tombol cari
+Sistem: Menerima input pencarian, Mencari data MUA di database, Menampilkan hasil pencarian
+
+Activity: Lihat Detail MUA
+Pengguna: Memilih salah satu MUA dari daftar, Klik lihat detail
+Sistem: Mengambil detail profil MUA, portofolio, dan harga, Menampilkan halaman detail MUA
+
+Activity: Cek Ketersediaan Jadwal
+Pengguna: Memilih tanggal dan jam pada kalender MUA
+Sistem: Mengecek database jadwal booking, Menampilkan status ketersediaan (Tersedia/Tidak Tersedia)
+
+Activity: Booking Rias
+Pengguna: Memilih layanan, Mengisi detail pesanan, Klik tombol buat pesanan
+Sistem: Menampilkan form booking, Memproses data pesanan, Menyimpan pesanan dengan status 'Menunggu Pembayaran'
+
+Activity: Pembayaran
+Pengguna: Memilih metode pembayaran, Melakukan transfer sesuai nominal
+Sistem: Menampilkan detail instruksi pembayaran dan nomor rekening
+
+Activity: Upload Bukti Bayar
+Pengguna: Mengunggah foto bukti transfer, Klik kirim
+Sistem: Menerima file unggahan, Menyimpan bukti bayar ke database, Memperbarui status pesanan menjadi 'Menunggu Verifikasi'
+
+Activity: Cek Status Booking
+Pengguna: Membuka menu 'Pesanan Saya'
+Sistem: Mengambil data pesanan pengguna dari database, Menampilkan daftar pesanan beserta status terbarunya
+
+Activity: Reschedule Booking
+Pengguna: Memilih pesanan yang ingin diubah, Memilih jadwal baru, Klik ajukan reschedule
+Sistem: Mengecek ketersediaan jadwal baru, Memperbarui data jadwal pesanan, Mengirim notifikasi ke MUA
+
+Activity: Pembatalan Booking
+Pengguna: Memilih pesanan, Klik tombol batalkan pesanan, Memberikan alasan pembatalan
+Sistem: Memvalidasi aturan pembatalan, Memperbarui status pesanan menjadi 'Dibatalkan', Mengembalikan slot jadwal
+
+Activity: Beri Ulasan dan Rating
+Pengguna: Memilih pesanan yang selesai, Mengisi ulasan dan bintang, Klik kirim ulasan
+Sistem: Menampilkan form ulasan, Menyimpan ulasan ke database, Memperbarui rating rata-rata MUA
+
+Activity: Edit Profil
+Pengguna: Membuka pengaturan profil, Mengubah data diri/foto, Klik simpan
+Sistem: Menampilkan data profil saat ini, Memperbarui data di database, Menampilkan pesan sukses update
+
+Activity: Logout
+Pengguna: Klik tombol logout
+Sistem: Menghapus session pengguna, Mengarahkan kembali ke halaman login/beranda
+
+Activity: Admin Login
+Pengguna: Memasukkan kredensial admin
+Sistem: Memverifikasi status admin, Memberikan akses ke dashboard admin
+
+Activity: Admin Kelola Layanan
+Pengguna: Menambah, mengubah, atau menghapus data layanan rias
+Sistem: Menampilkan daftar layanan, Memperbarui database layanan, Menampilkan perubahan di sisi pengguna
+
+Activity: Admin Verifikasi Pembayaran
+Pengguna: Memeriksa bukti bayar yang diunggah, Klik verifikasi/tolak
+Sistem: Menampilkan daftar bukti bayar, Memperbarui status pesanan menjadi 'Dikonfirmasi', Mengirim notifikasi ke pengguna
+
+Activity: Admin Laporan Transaksi
+Pengguna: Memilih periode laporan, Klik cetak/lihat laporan
+Sistem: Menghitung total transaksi dan pendapatan, Menghasilkan laporan dalam bentuk tabel/grafik
+
+Activity: Admin Kelola Ulasan
+Pengguna: Memantau ulasan masuk, Menghapus ulasan yang tidak pantas
+Sistem: Menampilkan semua daftar ulasan, Menghapus data ulasan dari database
+
+Activity: Lupa Password
+Pengguna: Klik lupa password, Memasukkan email recovery
+Sistem: Mengirim link reset password ke email pengguna
+
+Activity: Reset Password
+Pengguna: Membuka link reset password, Memasukkan password baru
+Sistem: Memperbarui password di database, Menampilkan pesan sukses reset
+
+Activity: Favoritkan MUA
+Pengguna: Klik ikon hati pada profil MUA
+Sistem: Menyimpan MUA ke daftar favorit pengguna, Menampilkan pesan tersimpan
+
+Activity: Lihat Daftar Favorit
+Pengguna: Membuka menu 'Favorit Saya'
+Sistem: Mengambil daftar MUA yang difavoritkan, Menampilkan daftar favorit
+
+Activity: Chat MUA
+Pengguna: Membuka detail MUA, Menulis pesan, Klik kirim
+Sistem: Menampilkan jendela chat, Mengirim pesan ke dashboard MUA, Menyimpan histori chat
+
+Activity: Notifikasi Pesanan
+Pengguna: Membuka panel notifikasi
+Sistem: Menampilkan daftar notifikasi terbaru (konfirmasi pembayaran, pengingat jadwal)
+
+Activity: Admin Kelola Kategori
+Pengguna: Menambah kategori rias (Wisuda, Pengantin, Casual)
+Sistem: Menyimpan kategori baru, Menampilkan kategori di filter pencarian
+
+Activity: Admin Kelola User
+Pengguna: Melihat daftar user, Menonaktifkan user bermasalah
+Sistem: Menampilkan data user, Memperbarui status akun user
+
+Activity: Admin Kelola Banner
+Pengguna: Mengunggah gambar promo banner baru
+Sistem: Memperbarui tampilan banner di halaman beranda pengguna
+
+Activity: Lihat Syarat dan Ketentuan
+Pengguna: Klik link Syarat dan Ketentuan
+Sistem: Menampilkan dokumen syarat dan ketentuan layanan
+
+Activity: Bantuan CS
+Pengguna: Klik menu bantuan, Mengirim pertanyaan
+Sistem: Menghubungkan pengguna ke WhatsApp/Email Support
+
+Activity: Filter Pencarian
+Pengguna: Memilih range harga dan rating
+Sistem: Memfilter data MUA sesuai kriteria, Menampilkan hasil filter
+
+Activity: Lihat Portofolio
+Pengguna: Klik tab portofolio pada detail MUA
+Sistem: Memuat galeri foto hasil riasan MUA, Menampilkan galeri
+
+Activity: Pengingat Jadwal Otomatis
+Pengguna: Menerima email/push notifikasi H-1 acara
+Sistem: Mengecek jadwal booking besok, Mengirim notifikasi pengingat secara otomatis
+
+Activity: Admin Dashboard Statistik
+Pengguna: Melihat ringkasan data hari ini
+Sistem: Menampilkan jumlah booking baru, user baru, dan total omset hari ini

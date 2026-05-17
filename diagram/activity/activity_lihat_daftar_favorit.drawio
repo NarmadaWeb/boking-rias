@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="4ef42641-d749-4fbf-998c-57eb1eb408bd" name="Lihat Daftar Favorit">
+        <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="parent_swimlane" value="Lihat Daftar Favorit" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=1;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="800" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="lane_pengguna" value="Pengguna" style="swimlane;html=1;startSize=20;" vertex="1" parent="parent_swimlane">
+                    <mxGeometry x="0" y="20" width="400" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="lane_sistem" value="Sistem" style="swimlane;html=1;startSize=20;" vertex="1" parent="parent_swimlane">
+                    <mxGeometry x="400" y="20" width="400" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="lane_pengguna">
+                    <mxGeometry x="185" y="50" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Membuka menu 'Favorit Saya'" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_pengguna">
+                    <mxGeometry x="100" y="130" width="200" height="60" as="geometry"/>
+                </mxCell>
+                    <mxCell id="1011" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                    <mxCell id="12" value="Mengambil daftar MUA yang difavoritkan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_sistem">
+                    <mxGeometry x="100" y="250" width="200" height="60" as="geometry"/>
+                </mxCell>
+                    <mxCell id="1012" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                    <mxCell id="13" value="Menampilkan daftar favorit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lane_sistem">
+                    <mxGeometry x="100" y="370" width="200" height="60" as="geometry"/>
+                </mxCell>
+                    <mxCell id="1013" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                    <mxCell id="14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="lane_pengguna">
+                    <mxGeometry x="185" y="490" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2014" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
