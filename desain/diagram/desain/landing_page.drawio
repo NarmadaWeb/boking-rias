@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="page1" name="Landing Page">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Main Border -->
+        <mxCell id="main_border" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="800" height="1000" as="geometry" />
+        </mxCell>
+        <!-- Header -->
+        <mxCell id="header_line" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=20;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="800" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="logo" value="Boking Rias" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_home" value="Home" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="25" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_katalog" value="Katalog" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="25" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_status" value="Status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="25" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_login" value="Login" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="710" y="20" width="70" height="30" as="geometry" />
+        </mxCell>
+        <!-- Hero Section -->
+        <mxCell id="hero_box" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="760" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hero_title" value="Tampil Cantik di Hari Spesial Anda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="620" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hero_desc" value="Booking layanan rias pengantin, wisuda, dan acara lainnya dengan mudah dan cepat." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_book_now" value="Booking Sekarang" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <!-- Featured Products -->
+        <mxCell id="sec_title" value="Layanan Unggulan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="card1" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="220" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="img1" value="Image" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="title1" value="Rias Pengantin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="660" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="price1" value="Rp 2.000.000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="690" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="card2" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="220" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="img2" value="Image" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="card3" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="220" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="img3" value="Image" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="220" height="150" as="geometry" />
+        </mxCell>
+        <!-- Footer -->
+        <mxCell id="footer_line" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=20;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="850" width="800" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_text" value="&amp;copy; 2023 Boking Rias. All rights reserved." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="900" width="620" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="page1" name="Detail Produk">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Main Border -->
+        <mxCell id="main_border" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="800" height="700" as="geometry" />
+        </mxCell>
+        <!-- Header -->
+        <mxCell id="header_line" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=20;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="800" height="10" as="geometry" />
+        </mxCell>
+        <!-- Detail Content -->
+        <mxCell id="prod_img" value="Besar Image Produk" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="350" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_title" value="Paket Rias Pengantin Tradisional" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_price" value="Rp 5.500.000" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="410" y="150" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_desc_label" value="Deskripsi Layanan:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_desc" value="Paket lengkap rias pengantin untuk acara pernikahan tradisional. Termasuk: &#xa;- Rias wajah (makeup) &#xa;- Penataan rambut/hijab &#xa;- Busana pengantin (opsional) &#xa;- Aksesoris lengkap" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_booking" value="Booking Sekarang" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=16" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
