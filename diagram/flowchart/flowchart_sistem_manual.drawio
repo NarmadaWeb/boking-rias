@@ -1,0 +1,68 @@
+<mxfile host="65bd71144e">
+    <diagram id="7577bfd4-740a-4f1f-8807-3664f0306798" name="Sistem Manual">
+        <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            <mxCell id="n1" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="350" y="40" width="80" height="40" as="geometry"/>
+            </mxCell>
+            <mxCell id="n2" value="Pelanggan datang / Hubungi via Telepon" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="290" y="120" width="200" height="60" as="geometry"/>
+            </mxCell>
+            <mxCell id="n3" value="Tanya ketersediaan jadwal" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="320" y="220" width="140" height="60" as="geometry"/>
+            </mxCell>
+            <mxCell id="n4" value="Cek buku jadwal manual" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="320" y="320" width="140" height="60" as="geometry"/>
+            </mxCell>
+            <mxCell id="n5" value="Jadwal Tersedia?" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="330" y="420" width="120" height="80" as="geometry"/>
+            </mxCell>
+            <mxCell id="n6" value="Informasikan jadwal penuh" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="520" y="430" width="140" height="60" as="geometry"/>
+            </mxCell>
+            <mxCell id="n7" value="Catat booking di buku besar" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="320" y="540" width="140" height="60" as="geometry"/>
+            </mxCell>
+            <mxCell id="n8" value="Pembayaran (DP/Cash)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="320" y="640" width="140" height="60" as="geometry"/>
+            </mxCell>
+            <mxCell id="n9" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                <mxGeometry x="350" y="740" width="80" height="40" as="geometry"/>
+            </mxCell>
+            <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n1" target="n2">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+            <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n2" target="n3">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+            <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n3" target="n4">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+            <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4" target="n5">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+            <mxCell id="e5" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n5" target="n7">
+                <mxGeometry relative="1" as="geometry">
+                    <mxPoint as="offset"/>
+                </mxGeometry>
+            </mxCell>
+            <mxCell id="e6" value="T" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n5" target="n6">
+                <mxGeometry relative="1" as="geometry">
+                    <mxPoint as="offset"/>
+                </mxGeometry>
+            </mxCell>
+            <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n7" target="n8">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+            <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n8" target="n9">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+            <mxCell id="e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n6" target="n9">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
